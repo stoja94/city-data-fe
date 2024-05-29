@@ -12,13 +12,19 @@ Prima di iniziare, assicurati di avere i seguenti strumenti installati e configu
 
 Dopo aver clonato il repository, segui questi passaggi:
 
-1. **Installa le dipendenze**
+1. **Rimozione di ESLint (opzionale)**
+   - Se durante l'installazione delle dipendenze si riscontrano problemi relativi a ESLint, elimina tutte le dipendenze e configurazioni di ESLint dal progetto.
+   - Apri il file `package.json` e rimuovi tutte le voci relative a ESLint.
+
+   - Elimina anche il file di configurazione di ESLint `eslint.config.mjs`.
+
+2. **Installa le dipendenze**
    - Esegui il seguente comando nella directory del progetto frontend per installare tutte le dipendenze necessarie:
      ```bash
      npm install
      ```
 
-2. **Avvia l'applicazione**
+3. **Avvia l'applicazione**
    - Esegui il seguente comando per avviare l'applicazione:
      ```bash
      npm start
